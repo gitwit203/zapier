@@ -24,6 +24,7 @@ router.post("/signup", (req, res) => __awaiter(void 0, void 0, void 0, function*
     //console.log("signup Handler");
     const body = req.body;
     const parsedData = types_1.SignUpSchema.safeParse(body);
+    //console.log(body);
     if (!parsedData.success) {
         return res.status(411).json({
             message: "Incorrect Inputs",
@@ -58,6 +59,7 @@ router.post("/signin", (req, res) => __awaiter(void 0, void 0, void 0, function*
     //console.log("signin Handler");
     const body = req.body;
     const parsedData = types_1.SignInSchema.safeParse(body);
+    console.log("Received body", body);
     if (!parsedData.success) {
         return res.status(411).json({
             message: "Incorrect Inputs",

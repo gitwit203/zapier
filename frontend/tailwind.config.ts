@@ -1,6 +1,10 @@
 import type { Config } from "tailwindcss";
 
+<<<<<<< HEAD
 const config: Config = {
+=======
+export default {
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +12,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
+<<<<<<< HEAD
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -26,3 +31,19 @@ const config: Config = {
   plugins: [],
 };
 export default config;
+=======
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        amber:{
+          700:"#ff4f00"
+        }
+      },
+      slate:{
+        100:"#ebe9df"
+      }, 
+    },
+  },
+  plugins: [],
+} satisfies Config;
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94

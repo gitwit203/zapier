@@ -4,14 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "tsc -b && node dist/index.js"
+=======
+    "start": "tsc-b && dist/index.js"
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@prisma/client": "^6.4.1",
     "kafkajs": "^2.2.4",
     "prisma": "^6.4.1"
+=======
+    "@prisma/client": "^6.2.1",
+    "kafkajs": "^2.2.4",
+    "prisma": "^6.2.1"
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
   }
 }

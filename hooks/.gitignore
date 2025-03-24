@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 dist
+=======
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
 node_modules
 # Keep environment variables out of version control
 .env

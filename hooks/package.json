@@ -4,15 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "tsc -b && node dist/index.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@prisma/client": "^6.4.1",
     "@types/express": "^4.17.21",
     "express": "^4.19.2",
     "prisma": "^6.4.1"
+=======
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
   }
 }

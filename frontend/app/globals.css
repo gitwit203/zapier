@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
+<<<<<<< HEAD
   background-color: #fffdf9;
+=======
+    background-color: #fffdf9;
+>>>>>>> 9894bef806202badea46c64b1d2a8d02f946dd94
 }

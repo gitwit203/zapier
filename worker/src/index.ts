@@ -46,9 +46,9 @@ async function main() {
             include: {
               zap: {
                 include: {
-                  actions: {
-                    include: {
-                      type: true
+                  actions: { // since the actions is a foreign key in zap table, we need to use the include wala format
+                    include: { //if only zap:true was written it wouldn't have given the relationships
+                      type: true // here type is nothing but availableActions
                     }
                   }
                 }

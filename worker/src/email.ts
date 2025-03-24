@@ -2,7 +2,8 @@ import nodemailer from "nodemailer";
 // SOL_PRIVATE_KEY=""
 // SMTP_USERNAME=""
 // SMTP_PASSWORD=""
-// SMTP_ENDPOINT
+// SMTP_ENDPOINT  
+// use swaks to test your smtp credentials
 
 const transport = nodemailer.createTransport({
     host: process.env.SMTP_ENDPOINT,
@@ -16,8 +17,8 @@ const transport = nodemailer.createTransport({
 
 export async function sendEmail(to: string, body: string) {
     await transport.sendMail({
-        from: "contact@100xdevs.com",
-        sender: "contact@100xdevs.com",
+        from: "1289ijay@gmail.com",
+        sender: "1289ijay@gmail.com",
         to,
         subject: "Hello from Zapier",
         text: body
